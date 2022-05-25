@@ -7,23 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9506C048283C9959008B2455 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9506C047283C9959008B2455 /* main.c */; };
 		950F427427A3E0360006A43F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 950F427327A3E0360006A43F /* main.c */; };
+		951AA42A282C385D00B9543B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 951AA429282C385D00B9543B /* main.c */; };
 		951ABC5C27A40FAD00143B23 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 951ABC5B27A40FAD00143B23 /* main.c */; };
 		9527FA00277C347300C38960 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9527F9FF277C347300C38960 /* main.c */; };
 		952C986328258225001A9764 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C986228258225001A9764 /* main.c */; };
 		952C986E28258516001A9764 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C986D28258516001A9764 /* main.c */; };
+		9530EA90282BE980004C9F9D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9530EA8F282BE980004C9F9D /* main.c */; };
+		9530EA9B282BED68004C9F9D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9530EA9A282BED68004C9F9D /* main.c */; };
+		9530EAA6282BF5B9004C9F9D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9530EAA5282BF5B9004C9F9D /* main.c */; };
 		9565C35327A84D9F00CB5330 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9565C35227A84D9F00CB5330 /* main.c */; };
 		956998F327A1F29C00984C05 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 956998F227A1F29C00984C05 /* main.c */; };
 		957712732826F5B000E96209 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 957712722826F5B000E96209 /* main.c */; };
+		9577127E282708C700E96209 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9577127D282708C700E96209 /* main.c */; };
+		9577128928272A3300E96209 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9577128828272A3300E96209 /* main.c */; };
+		959815B2282D412F00090EB4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 959815B1282D412F00090EB4 /* main.c */; };
 		95990D3A276E388A00335911 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95990D39276E388A00335911 /* main.c */; };
 		959A645D279DF31F00E1ADF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 959A645C279DF31F00E1ADF6 /* main.c */; };
+		95B26135282BD92600E262B4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95B26134282BD92600E262B4 /* main.c */; };
 		95CA8BC127857B92002553E7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95CA8BC027857B92002553E7 /* main.c */; };
+		95D3BFD7282A840100B6BE19 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95D3BFD6282A840100B6BE19 /* main.c */; };
+		95D3BFE2282A868200B6BE19 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95D3BFE1282A868200B6BE19 /* main.c */; };
+		95D3BFED282A88C500B6BE19 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95D3BFEC282A88C500B6BE19 /* main.c */; };
 		95F1CFD627A283F80004BDE5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95F1CFD527A283F80004BDE5 /* main.c */; };
+		95F2C56A283BE72800704D43 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95F2C569283BE72800704D43 /* main.c */; };
 		95F3E92C279D2D3A005AA319 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95F3E92B279D2D3A005AA319 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9506C043283C9959008B2455 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		950F426F27A3E0360006A43F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		951AA425282C385D00B9543B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -68,6 +99,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9530EA8B282BE980004C9F9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9530EA96282BED68004C9F9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9530EAA1282BF5B9004C9F9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9565C34E27A84D9F00CB5330 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +153,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		95771279282708C700E96209 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9577128428272A3300E96209 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		959815AD282D412F00090EB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		95990D34276E388A00335911 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +198,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		95B26130282BD92600E262B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		95CA8BBC27857B92002553E7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,7 +216,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		95D3BFD2282A840100B6BE19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95D3BFDD282A868200B6BE19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95D3BFE8282A88C500B6BE19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		95F1CFD127A283F80004BDE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95F2C565283BE72800704D43 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -143,8 +273,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9506C045283C9959008B2455 /* passing 2d array to a function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "passing 2d array to a function"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9506C047283C9959008B2455 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		950F427127A3E0360006A43F /* exercise 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		950F427327A3E0360006A43F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		951AA427282C385D00B9543B /* star pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "star pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951AA429282C385D00B9543B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		951ABC5927A40FAD00143B23 /* exercise 6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 6"; sourceTree = BUILT_PRODUCTS_DIR; };
 		951ABC5B27A40FAD00143B23 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9527F9FD277C347300C38960 /* new program */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new program"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,26 +287,62 @@
 		952C986228258225001A9764 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		952C986B28258516001A9764 /* fibonacci using for loop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fibonacci using for loop"; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C986D28258516001A9764 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9530EA8D282BE980004C9F9D /* testing file */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "testing file"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9530EA8F282BE980004C9F9D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9530EA98282BED68004C9F9D /* program that interchanges the odd and even elements of an array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "program that interchanges the odd and even elements of an array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9530EA9A282BED68004C9F9D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9530EAA3282BF5B9004C9F9D /* attempt 2 of above */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "attempt 2 of above"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9530EAA5282BF5B9004C9F9D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9565C35027A84D9F00CB5330 /* electicity bill */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "electicity bill"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9565C35227A84D9F00CB5330 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		956998F027A1F29C00984C05 /* exercise 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		956998F227A1F29C00984C05 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		957712702826F5B000E96209 /* pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointers; sourceTree = BUILT_PRODUCTS_DIR; };
 		957712722826F5B000E96209 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9577127B282708C700E96209 /* 2D array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2D array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9577127D282708C700E96209 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9577128628272A3300E96209 /* pointer arithematic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pointer arithematic"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9577128828272A3300E96209 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		959815AF282D412F00090EB4 /* mcluren sinx function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mcluren sinx function"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959815B1282D412F00090EB4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95990D36276E388A00335911 /* my_c_prog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_c_prog; sourceTree = BUILT_PRODUCTS_DIR; };
 		95990D39276E388A00335911 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		959A645A279DF31F00E1ADF6 /* exercise 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959A645C279DF31F00E1ADF6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95B26132282BD92600E262B4 /* pointers continued */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pointers continued"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B26134282BD92600E262B4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95CA8BBE27857B92002553E7 /* exercise of c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise of c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CA8BC027857B92002553E7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95D3BFD4282A840100B6BE19 /* program to add two numbers using pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "program to add two numbers using pointers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D3BFD6282A840100B6BE19 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95D3BFDF282A868200B6BE19 /* program to swap two numbers using pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "program to swap two numbers using pointer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D3BFE1282A868200B6BE19 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95D3BFEA282A88C500B6BE19 /* program to input and print array elements using pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "program to input and print array elements using pointer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D3BFEC282A88C500B6BE19 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95F1CFD327A283F80004BDE5 /* exercise 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F1CFD527A283F80004BDE5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95F2C567283BE72800704D43 /* passing an array to a function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "passing an array to a function"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2C569283BE72800704D43 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95F3E929279D2D3A005AA319 /* exercise 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F3E92B279D2D3A005AA319 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9506C042283C9959008B2455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		950F426E27A3E0360006A43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951AA424282C385D00B9543B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,6 +377,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9530EA8A282BE980004C9F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9530EA95282BED68004C9F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9530EAA0282BF5B9004C9F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9565C34D27A84D9F00CB5330 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +419,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95771278282708C700E96209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9577128328272A3300E96209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959815AC282D412F00090EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95990D33276E388A00335911 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +454,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95B2612F282BD92600E262B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95CA8BBB27857B92002553E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,7 +468,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95D3BFD1282A840100B6BE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D3BFDC282A868200B6BE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D3BFE7282A88C500B6BE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95F1CFD027A283F80004BDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2C564283BE72800704D43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,12 +513,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9506C046283C9959008B2455 /* passing 2d array to a function */ = {
+			isa = PBXGroup;
+			children = (
+				9506C047283C9959008B2455 /* main.c */,
+			);
+			path = "passing 2d array to a function";
+			sourceTree = "<group>";
+		};
 		950F427227A3E0360006A43F /* exercise 5 */ = {
 			isa = PBXGroup;
 			children = (
 				950F427327A3E0360006A43F /* main.c */,
 			);
 			path = "exercise 5";
+			sourceTree = "<group>";
+		};
+		951AA428282C385D00B9543B /* star pattern */ = {
+			isa = PBXGroup;
+			children = (
+				951AA429282C385D00B9543B /* main.c */,
+			);
+			path = "star pattern";
 			sourceTree = "<group>";
 		};
 		951ABC5A27A40FAD00143B23 /* exercise 6 */ = {
@@ -306,6 +569,30 @@
 			path = "fibonacci using for loop";
 			sourceTree = "<group>";
 		};
+		9530EA8E282BE980004C9F9D /* testing file */ = {
+			isa = PBXGroup;
+			children = (
+				9530EA8F282BE980004C9F9D /* main.c */,
+			);
+			path = "testing file";
+			sourceTree = "<group>";
+		};
+		9530EA99282BED68004C9F9D /* program that interchanges the odd and even elements of an array */ = {
+			isa = PBXGroup;
+			children = (
+				9530EA9A282BED68004C9F9D /* main.c */,
+			);
+			path = "program that interchanges the odd and even elements of an array";
+			sourceTree = "<group>";
+		};
+		9530EAA4282BF5B9004C9F9D /* attempt 2 of above */ = {
+			isa = PBXGroup;
+			children = (
+				9530EAA5282BF5B9004C9F9D /* main.c */,
+			);
+			path = "attempt 2 of above";
+			sourceTree = "<group>";
+		};
 		9565C35127A84D9F00CB5330 /* electicity bill */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +617,30 @@
 			path = pointers;
 			sourceTree = "<group>";
 		};
+		9577127C282708C700E96209 /* 2D array */ = {
+			isa = PBXGroup;
+			children = (
+				9577127D282708C700E96209 /* main.c */,
+			);
+			path = "2D array";
+			sourceTree = "<group>";
+		};
+		9577128728272A3300E96209 /* pointer arithematic */ = {
+			isa = PBXGroup;
+			children = (
+				9577128828272A3300E96209 /* main.c */,
+			);
+			path = "pointer arithematic";
+			sourceTree = "<group>";
+		};
+		959815B0282D412F00090EB4 /* mcluren sinx function */ = {
+			isa = PBXGroup;
+			children = (
+				959815B1282D412F00090EB4 /* main.c */,
+			);
+			path = "mcluren sinx function";
+			sourceTree = "<group>";
+		};
 		95990D2D276E388A00335911 = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +657,19 @@
 				952C986128258225001A9764 /* fibnacci sequence using recursion */,
 				952C986C28258516001A9764 /* fibonacci using for loop */,
 				957712712826F5B000E96209 /* pointers */,
+				9577127C282708C700E96209 /* 2D array */,
+				9577128728272A3300E96209 /* pointer arithematic */,
+				95D3BFD5282A840100B6BE19 /* program to add two numbers using pointers */,
+				95D3BFE0282A868200B6BE19 /* program to swap two numbers using pointer */,
+				95D3BFEB282A88C500B6BE19 /* program to input and print array elements using pointer */,
+				95B26133282BD92600E262B4 /* pointers continued */,
+				9530EA8E282BE980004C9F9D /* testing file */,
+				9530EA99282BED68004C9F9D /* program that interchanges the odd and even elements of an array */,
+				9530EAA4282BF5B9004C9F9D /* attempt 2 of above */,
+				951AA428282C385D00B9543B /* star pattern */,
+				959815B0282D412F00090EB4 /* mcluren sinx function */,
+				95F2C568283BE72800704D43 /* passing an array to a function */,
+				9506C046283C9959008B2455 /* passing 2d array to a function */,
 				95990D37276E388A00335911 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -366,6 +690,19 @@
 				952C986028258225001A9764 /* fibnacci sequence using recursion */,
 				952C986B28258516001A9764 /* fibonacci using for loop */,
 				957712702826F5B000E96209 /* pointers */,
+				9577127B282708C700E96209 /* 2D array */,
+				9577128628272A3300E96209 /* pointer arithematic */,
+				95D3BFD4282A840100B6BE19 /* program to add two numbers using pointers */,
+				95D3BFDF282A868200B6BE19 /* program to swap two numbers using pointer */,
+				95D3BFEA282A88C500B6BE19 /* program to input and print array elements using pointer */,
+				95B26132282BD92600E262B4 /* pointers continued */,
+				9530EA8D282BE980004C9F9D /* testing file */,
+				9530EA98282BED68004C9F9D /* program that interchanges the odd and even elements of an array */,
+				9530EAA3282BF5B9004C9F9D /* attempt 2 of above */,
+				951AA427282C385D00B9543B /* star pattern */,
+				959815AF282D412F00090EB4 /* mcluren sinx function */,
+				95F2C567283BE72800704D43 /* passing an array to a function */,
+				9506C045283C9959008B2455 /* passing 2d array to a function */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -386,6 +723,14 @@
 			path = "exercise 2";
 			sourceTree = "<group>";
 		};
+		95B26133282BD92600E262B4 /* pointers continued */ = {
+			isa = PBXGroup;
+			children = (
+				95B26134282BD92600E262B4 /* main.c */,
+			);
+			path = "pointers continued";
+			sourceTree = "<group>";
+		};
 		95CA8BBF27857B92002553E7 /* exercise of c */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,12 +739,44 @@
 			path = "exercise of c";
 			sourceTree = "<group>";
 		};
+		95D3BFD5282A840100B6BE19 /* program to add two numbers using pointers */ = {
+			isa = PBXGroup;
+			children = (
+				95D3BFD6282A840100B6BE19 /* main.c */,
+			);
+			path = "program to add two numbers using pointers";
+			sourceTree = "<group>";
+		};
+		95D3BFE0282A868200B6BE19 /* program to swap two numbers using pointer */ = {
+			isa = PBXGroup;
+			children = (
+				95D3BFE1282A868200B6BE19 /* main.c */,
+			);
+			path = "program to swap two numbers using pointer";
+			sourceTree = "<group>";
+		};
+		95D3BFEB282A88C500B6BE19 /* program to input and print array elements using pointer */ = {
+			isa = PBXGroup;
+			children = (
+				95D3BFEC282A88C500B6BE19 /* main.c */,
+			);
+			path = "program to input and print array elements using pointer";
+			sourceTree = "<group>";
+		};
 		95F1CFD427A283F80004BDE5 /* exercise 4 */ = {
 			isa = PBXGroup;
 			children = (
 				95F1CFD527A283F80004BDE5 /* main.c */,
 			);
 			path = "exercise 4";
+			sourceTree = "<group>";
+		};
+		95F2C568283BE72800704D43 /* passing an array to a function */ = {
+			isa = PBXGroup;
+			children = (
+				95F2C569283BE72800704D43 /* main.c */,
+			);
+			path = "passing an array to a function";
 			sourceTree = "<group>";
 		};
 		95F3E92A279D2D3A005AA319 /* exercise 1 */ = {
@@ -413,6 +790,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9506C044283C9959008B2455 /* passing 2d array to a function */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9506C04B283C9959008B2455 /* Build configuration list for PBXNativeTarget "passing 2d array to a function" */;
+			buildPhases = (
+				9506C041283C9959008B2455 /* Sources */,
+				9506C042283C9959008B2455 /* Frameworks */,
+				9506C043283C9959008B2455 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "passing 2d array to a function";
+			productName = "passing 2d array to a function";
+			productReference = 9506C045283C9959008B2455 /* passing 2d array to a function */;
+			productType = "com.apple.product-type.tool";
+		};
 		950F427027A3E0360006A43F /* exercise 5 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 950F427727A3E0360006A43F /* Build configuration list for PBXNativeTarget "exercise 5" */;
@@ -428,6 +822,23 @@
 			name = "exercise 5";
 			productName = "exercise 5";
 			productReference = 950F427127A3E0360006A43F /* exercise 5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		951AA426282C385D00B9543B /* star pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951AA42D282C385D00B9543B /* Build configuration list for PBXNativeTarget "star pattern" */;
+			buildPhases = (
+				951AA423282C385D00B9543B /* Sources */,
+				951AA424282C385D00B9543B /* Frameworks */,
+				951AA425282C385D00B9543B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "star pattern";
+			productName = "star pattern";
+			productReference = 951AA427282C385D00B9543B /* star pattern */;
 			productType = "com.apple.product-type.tool";
 		};
 		951ABC5827A40FAD00143B23 /* exercise 6 */ = {
@@ -498,6 +909,57 @@
 			productReference = 952C986B28258516001A9764 /* fibonacci using for loop */;
 			productType = "com.apple.product-type.tool";
 		};
+		9530EA8C282BE980004C9F9D /* testing file */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9530EA93282BE980004C9F9D /* Build configuration list for PBXNativeTarget "testing file" */;
+			buildPhases = (
+				9530EA89282BE980004C9F9D /* Sources */,
+				9530EA8A282BE980004C9F9D /* Frameworks */,
+				9530EA8B282BE980004C9F9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "testing file";
+			productName = "testing file";
+			productReference = 9530EA8D282BE980004C9F9D /* testing file */;
+			productType = "com.apple.product-type.tool";
+		};
+		9530EA97282BED68004C9F9D /* program that interchanges the odd and even elements of an array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9530EA9C282BED68004C9F9D /* Build configuration list for PBXNativeTarget "program that interchanges the odd and even elements of an array" */;
+			buildPhases = (
+				9530EA94282BED68004C9F9D /* Sources */,
+				9530EA95282BED68004C9F9D /* Frameworks */,
+				9530EA96282BED68004C9F9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "program that interchanges the odd and even elements of an array";
+			productName = "program that interchanges the odd and even elements of an array";
+			productReference = 9530EA98282BED68004C9F9D /* program that interchanges the odd and even elements of an array */;
+			productType = "com.apple.product-type.tool";
+		};
+		9530EAA2282BF5B9004C9F9D /* attempt 2 of above */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9530EAA7282BF5B9004C9F9D /* Build configuration list for PBXNativeTarget "attempt 2 of above" */;
+			buildPhases = (
+				9530EA9F282BF5B9004C9F9D /* Sources */,
+				9530EAA0282BF5B9004C9F9D /* Frameworks */,
+				9530EAA1282BF5B9004C9F9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "attempt 2 of above";
+			productName = "attempt 2 of above";
+			productReference = 9530EAA3282BF5B9004C9F9D /* attempt 2 of above */;
+			productType = "com.apple.product-type.tool";
+		};
 		9565C34F27A84D9F00CB5330 /* electicity bill */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9565C35627A84D9F00CB5330 /* Build configuration list for PBXNativeTarget "electicity bill" */;
@@ -549,6 +1011,57 @@
 			productReference = 957712702826F5B000E96209 /* pointers */;
 			productType = "com.apple.product-type.tool";
 		};
+		9577127A282708C700E96209 /* 2D array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9577127F282708C700E96209 /* Build configuration list for PBXNativeTarget "2D array" */;
+			buildPhases = (
+				95771277282708C700E96209 /* Sources */,
+				95771278282708C700E96209 /* Frameworks */,
+				95771279282708C700E96209 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2D array";
+			productName = "2D array";
+			productReference = 9577127B282708C700E96209 /* 2D array */;
+			productType = "com.apple.product-type.tool";
+		};
+		9577128528272A3300E96209 /* pointer arithematic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9577128C28272A3300E96209 /* Build configuration list for PBXNativeTarget "pointer arithematic" */;
+			buildPhases = (
+				9577128228272A3300E96209 /* Sources */,
+				9577128328272A3300E96209 /* Frameworks */,
+				9577128428272A3300E96209 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointer arithematic";
+			productName = "pointer arithematic";
+			productReference = 9577128628272A3300E96209 /* pointer arithematic */;
+			productType = "com.apple.product-type.tool";
+		};
+		959815AE282D412F00090EB4 /* mcluren sinx function */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959815B5282D412F00090EB4 /* Build configuration list for PBXNativeTarget "mcluren sinx function" */;
+			buildPhases = (
+				959815AB282D412F00090EB4 /* Sources */,
+				959815AC282D412F00090EB4 /* Frameworks */,
+				959815AD282D412F00090EB4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mcluren sinx function";
+			productName = "mcluren sinx function";
+			productReference = 959815AF282D412F00090EB4 /* mcluren sinx function */;
+			productType = "com.apple.product-type.tool";
+		};
 		95990D35276E388A00335911 /* my_c_prog */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95990D3D276E388A00335911 /* Build configuration list for PBXNativeTarget "my_c_prog" */;
@@ -583,6 +1096,23 @@
 			productReference = 959A645A279DF31F00E1ADF6 /* exercise 2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		95B26131282BD92600E262B4 /* pointers continued */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B26138282BD92600E262B4 /* Build configuration list for PBXNativeTarget "pointers continued" */;
+			buildPhases = (
+				95B2612E282BD92600E262B4 /* Sources */,
+				95B2612F282BD92600E262B4 /* Frameworks */,
+				95B26130282BD92600E262B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointers continued";
+			productName = "pointers continued";
+			productReference = 95B26132282BD92600E262B4 /* pointers continued */;
+			productType = "com.apple.product-type.tool";
+		};
 		95CA8BBD27857B92002553E7 /* exercise of c */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95CA8BC227857B92002553E7 /* Build configuration list for PBXNativeTarget "exercise of c" */;
@@ -600,6 +1130,57 @@
 			productReference = 95CA8BBE27857B92002553E7 /* exercise of c */;
 			productType = "com.apple.product-type.tool";
 		};
+		95D3BFD3282A840100B6BE19 /* program to add two numbers using pointers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D3BFDA282A840100B6BE19 /* Build configuration list for PBXNativeTarget "program to add two numbers using pointers" */;
+			buildPhases = (
+				95D3BFD0282A840100B6BE19 /* Sources */,
+				95D3BFD1282A840100B6BE19 /* Frameworks */,
+				95D3BFD2282A840100B6BE19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "program to add two numbers using pointers";
+			productName = "program to add two numbers using pointers";
+			productReference = 95D3BFD4282A840100B6BE19 /* program to add two numbers using pointers */;
+			productType = "com.apple.product-type.tool";
+		};
+		95D3BFDE282A868200B6BE19 /* program to swap two numbers using pointer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D3BFE3282A868200B6BE19 /* Build configuration list for PBXNativeTarget "program to swap two numbers using pointer" */;
+			buildPhases = (
+				95D3BFDB282A868200B6BE19 /* Sources */,
+				95D3BFDC282A868200B6BE19 /* Frameworks */,
+				95D3BFDD282A868200B6BE19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "program to swap two numbers using pointer";
+			productName = "program to swap two numbers using pointer";
+			productReference = 95D3BFDF282A868200B6BE19 /* program to swap two numbers using pointer */;
+			productType = "com.apple.product-type.tool";
+		};
+		95D3BFE9282A88C500B6BE19 /* program to input and print array elements using pointer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D3BFEE282A88C500B6BE19 /* Build configuration list for PBXNativeTarget "program to input and print array elements using pointer" */;
+			buildPhases = (
+				95D3BFE6282A88C500B6BE19 /* Sources */,
+				95D3BFE7282A88C500B6BE19 /* Frameworks */,
+				95D3BFE8282A88C500B6BE19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "program to input and print array elements using pointer";
+			productName = "program to input and print array elements using pointer";
+			productReference = 95D3BFEA282A88C500B6BE19 /* program to input and print array elements using pointer */;
+			productType = "com.apple.product-type.tool";
+		};
 		95F1CFD227A283F80004BDE5 /* exercise 4 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95F1CFD927A283F80004BDE5 /* Build configuration list for PBXNativeTarget "exercise 4" */;
@@ -615,6 +1196,23 @@
 			name = "exercise 4";
 			productName = "exercise 4";
 			productReference = 95F1CFD327A283F80004BDE5 /* exercise 4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		95F2C566283BE72800704D43 /* passing an array to a function */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F2C56D283BE72800704D43 /* Build configuration list for PBXNativeTarget "passing an array to a function" */;
+			buildPhases = (
+				95F2C563283BE72800704D43 /* Sources */,
+				95F2C564283BE72800704D43 /* Frameworks */,
+				95F2C565283BE72800704D43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "passing an array to a function";
+			productName = "passing an array to a function";
+			productReference = 95F2C567283BE72800704D43 /* passing an array to a function */;
 			productType = "com.apple.product-type.tool";
 		};
 		95F3E928279D2D3A005AA319 /* exercise 1 */ = {
@@ -643,8 +1241,14 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					9506C044283C9959008B2455 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					950F427027A3E0360006A43F = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					951AA426282C385D00B9543B = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
 					951ABC5827A40FAD00143B23 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -658,6 +1262,15 @@
 					952C986A28258516001A9764 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					9530EA8C282BE980004C9F9D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					9530EA97282BED68004C9F9D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					9530EAA2282BF5B9004C9F9D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					9565C34F27A84D9F00CB5330 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -667,17 +1280,41 @@
 					9577126F2826F5B000E96209 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					9577127A282708C700E96209 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					9577128528272A3300E96209 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					959815AE282D412F00090EB4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					95990D35276E388A00335911 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					959A6459279DF31F00E1ADF6 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					95B26131282BD92600E262B4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					95CA8BBD27857B92002553E7 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					95D3BFD3282A840100B6BE19 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					95D3BFDE282A868200B6BE19 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					95D3BFE9282A88C500B6BE19 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					95F1CFD227A283F80004BDE5 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					95F2C566283BE72800704D43 = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
 					95F3E928279D2D3A005AA319 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -710,16 +1347,45 @@
 				952C985F28258225001A9764 /* fibnacci sequence using recursion */,
 				952C986A28258516001A9764 /* fibonacci using for loop */,
 				9577126F2826F5B000E96209 /* pointers */,
+				9577127A282708C700E96209 /* 2D array */,
+				9577128528272A3300E96209 /* pointer arithematic */,
+				95D3BFD3282A840100B6BE19 /* program to add two numbers using pointers */,
+				95D3BFDE282A868200B6BE19 /* program to swap two numbers using pointer */,
+				95D3BFE9282A88C500B6BE19 /* program to input and print array elements using pointer */,
+				95B26131282BD92600E262B4 /* pointers continued */,
+				9530EA8C282BE980004C9F9D /* testing file */,
+				9530EA97282BED68004C9F9D /* program that interchanges the odd and even elements of an array */,
+				9530EAA2282BF5B9004C9F9D /* attempt 2 of above */,
+				951AA426282C385D00B9543B /* star pattern */,
+				959815AE282D412F00090EB4 /* mcluren sinx function */,
+				95F2C566283BE72800704D43 /* passing an array to a function */,
+				9506C044283C9959008B2455 /* passing 2d array to a function */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9506C041283C9959008B2455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9506C048283C9959008B2455 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		950F426D27A3E0360006A43F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				950F427427A3E0360006A43F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951AA423282C385D00B9543B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951AA42A282C385D00B9543B /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +1421,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9530EA89282BE980004C9F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9530EA90282BE980004C9F9D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9530EA94282BED68004C9F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9530EA9B282BED68004C9F9D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9530EA9F282BF5B9004C9F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9530EAA6282BF5B9004C9F9D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9565C34C27A84D9F00CB5330 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -779,6 +1469,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95771277282708C700E96209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9577127E282708C700E96209 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9577128228272A3300E96209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9577128928272A3300E96209 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959815AB282D412F00090EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959815B2282D412F00090EB4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95990D32276E388A00335911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -795,6 +1509,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95B2612E282BD92600E262B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B26135282BD92600E262B4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95CA8BBA27857B92002553E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,11 +1525,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95D3BFD0282A840100B6BE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D3BFD7282A840100B6BE19 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D3BFDB282A868200B6BE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D3BFE2282A868200B6BE19 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D3BFE6282A88C500B6BE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D3BFED282A88C500B6BE19 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95F1CFCF27A283F80004BDE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				95F1CFD627A283F80004BDE5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2C563283BE72800704D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2C56A283BE72800704D43 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,6 +1576,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9506C049283C9959008B2455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9506C04A283C9959008B2455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		950F427527A3E0360006A43F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -836,6 +1608,24 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		951AA42B282C385D00B9543B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951AA42C282C385D00B9543B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -912,6 +1702,60 @@
 			};
 			name = Release;
 		};
+		9530EA91282BE980004C9F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9530EA92282BE980004C9F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9530EA9D282BED68004C9F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9530EA9E282BED68004C9F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9530EAA8282BF5B9004C9F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9530EAA9282BF5B9004C9F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9565C35427A84D9F00CB5330 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -958,6 +1802,60 @@
 			name = Debug;
 		};
 		957712752826F5B000E96209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95771280282708C700E96209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95771281282708C700E96209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9577128A28272A3300E96209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9577128B28272A3300E96209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		959815B3282D412F00090EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		959815B4282D412F00090EB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1111,6 +2009,24 @@
 			};
 			name = Release;
 		};
+		95B26136282BD92600E262B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95B26137282BD92600E262B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		95CA8BC327857B92002553E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1129,6 +2045,60 @@
 			};
 			name = Release;
 		};
+		95D3BFD8282A840100B6BE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95D3BFD9282A840100B6BE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95D3BFE4282A868200B6BE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95D3BFE5282A868200B6BE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95D3BFEF282A88C500B6BE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95D3BFF0282A88C500B6BE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		95F1CFD727A283F80004BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1143,6 +2113,24 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95F2C56B283BE72800704D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95F2C56C283BE72800704D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1168,11 +2156,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9506C04B283C9959008B2455 /* Build configuration list for PBXNativeTarget "passing 2d array to a function" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9506C049283C9959008B2455 /* Debug */,
+				9506C04A283C9959008B2455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		950F427727A3E0360006A43F /* Build configuration list for PBXNativeTarget "exercise 5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				950F427527A3E0360006A43F /* Debug */,
 				950F427627A3E0360006A43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951AA42D282C385D00B9543B /* Build configuration list for PBXNativeTarget "star pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951AA42B282C385D00B9543B /* Debug */,
+				951AA42C282C385D00B9543B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1213,6 +2219,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9530EA93282BE980004C9F9D /* Build configuration list for PBXNativeTarget "testing file" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9530EA91282BE980004C9F9D /* Debug */,
+				9530EA92282BE980004C9F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9530EA9C282BED68004C9F9D /* Build configuration list for PBXNativeTarget "program that interchanges the odd and even elements of an array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9530EA9D282BED68004C9F9D /* Debug */,
+				9530EA9E282BED68004C9F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9530EAA7282BF5B9004C9F9D /* Build configuration list for PBXNativeTarget "attempt 2 of above" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9530EAA8282BF5B9004C9F9D /* Debug */,
+				9530EAA9282BF5B9004C9F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9565C35627A84D9F00CB5330 /* Build configuration list for PBXNativeTarget "electicity bill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1236,6 +2269,33 @@
 			buildConfigurations = (
 				957712742826F5B000E96209 /* Debug */,
 				957712752826F5B000E96209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9577127F282708C700E96209 /* Build configuration list for PBXNativeTarget "2D array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95771280282708C700E96209 /* Debug */,
+				95771281282708C700E96209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9577128C28272A3300E96209 /* Build configuration list for PBXNativeTarget "pointer arithematic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9577128A28272A3300E96209 /* Debug */,
+				9577128B28272A3300E96209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959815B5282D412F00090EB4 /* Build configuration list for PBXNativeTarget "mcluren sinx function" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959815B3282D412F00090EB4 /* Debug */,
+				959815B4282D412F00090EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1267,6 +2327,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		95B26138282BD92600E262B4 /* Build configuration list for PBXNativeTarget "pointers continued" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B26136282BD92600E262B4 /* Debug */,
+				95B26137282BD92600E262B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95CA8BC227857B92002553E7 /* Build configuration list for PBXNativeTarget "exercise of c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1276,11 +2345,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		95D3BFDA282A840100B6BE19 /* Build configuration list for PBXNativeTarget "program to add two numbers using pointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D3BFD8282A840100B6BE19 /* Debug */,
+				95D3BFD9282A840100B6BE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D3BFE3282A868200B6BE19 /* Build configuration list for PBXNativeTarget "program to swap two numbers using pointer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D3BFE4282A868200B6BE19 /* Debug */,
+				95D3BFE5282A868200B6BE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D3BFEE282A88C500B6BE19 /* Build configuration list for PBXNativeTarget "program to input and print array elements using pointer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D3BFEF282A88C500B6BE19 /* Debug */,
+				95D3BFF0282A88C500B6BE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95F1CFD927A283F80004BDE5 /* Build configuration list for PBXNativeTarget "exercise 4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95F1CFD727A283F80004BDE5 /* Debug */,
 				95F1CFD827A283F80004BDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F2C56D283BE72800704D43 /* Build configuration list for PBXNativeTarget "passing an array to a function" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F2C56B283BE72800704D43 /* Debug */,
+				95F2C56C283BE72800704D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
