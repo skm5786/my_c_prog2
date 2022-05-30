@@ -10,6 +10,7 @@
 		9506C048283C9959008B2455 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9506C047283C9959008B2455 /* main.c */; };
 		951AA42A282C385D00B9543B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 951AA429282C385D00B9543B /* main.c */; };
 		951ABC5C27A40FAD00143B23 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 951ABC5B27A40FAD00143B23 /* main.c */; };
+		951DEFE0283E6EAF00943570 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFDF283E6EAF00943570 /* main.c */; };
 		9527FA00277C347300C38960 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9527F9FF277C347300C38960 /* main.c */; };
 		952C986328258225001A9764 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C986228258225001A9764 /* main.c */; };
 		952C986E28258516001A9764 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C986D28258516001A9764 /* main.c */; };
@@ -63,6 +64,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		951ABC5727A40FAD00143B23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		951DEFDB283E6EAF00943570 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -279,6 +289,8 @@
 		951AA429282C385D00B9543B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		951ABC5927A40FAD00143B23 /* exercise 6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "exercise 6"; sourceTree = BUILT_PRODUCTS_DIR; };
 		951ABC5B27A40FAD00143B23 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		951DEFDD283E6EAF00943570 /* 2d array exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2d array exercise"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951DEFDF283E6EAF00943570 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9527F9FD277C347300C38960 /* new program */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new program"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9527F9FF277C347300C38960 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		952C986028258225001A9764 /* fibnacci sequence using recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fibnacci sequence using recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -348,6 +360,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		951ABC5627A40FAD00143B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951DEFDA283E6EAF00943570 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,6 +554,14 @@
 			path = "exercise 6";
 			sourceTree = "<group>";
 		};
+		951DEFDE283E6EAF00943570 /* 2d array exercise */ = {
+			isa = PBXGroup;
+			children = (
+				951DEFDF283E6EAF00943570 /* main.c */,
+			);
+			path = "2d array exercise";
+			sourceTree = "<group>";
+		};
 		9527F9FE277C347300C38960 /* new program */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +686,7 @@
 				959815B0282D412F00090EB4 /* mcluren sinx function */,
 				95F2C568283BE72800704D43 /* passing an array to a function */,
 				9506C046283C9959008B2455 /* passing 2d array to a function */,
+				951DEFDE283E6EAF00943570 /* 2d array exercise */,
 				95990D37276E388A00335911 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -692,6 +720,7 @@
 				959815AF282D412F00090EB4 /* mcluren sinx function */,
 				95F2C567283BE72800704D43 /* passing an array to a function */,
 				9506C045283C9959008B2455 /* passing 2d array to a function */,
+				951DEFDD283E6EAF00943570 /* 2d array exercise */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -845,6 +874,23 @@
 			name = "exercise 6";
 			productName = "exercise 6";
 			productReference = 951ABC5927A40FAD00143B23 /* exercise 6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		951DEFDC283E6EAF00943570 /* 2d array exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951DEFE1283E6EAF00943570 /* Build configuration list for PBXNativeTarget "2d array exercise" */;
+			buildPhases = (
+				951DEFD9283E6EAF00943570 /* Sources */,
+				951DEFDA283E6EAF00943570 /* Frameworks */,
+				951DEFDB283E6EAF00943570 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2d array exercise";
+			productName = "2d array exercise";
+			productReference = 951DEFDD283E6EAF00943570 /* 2d array exercise */;
 			productType = "com.apple.product-type.tool";
 		};
 		9527F9FC277C347300C38960 /* new program */ = {
@@ -1242,6 +1288,9 @@
 					951ABC5827A40FAD00143B23 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					951DEFDC283E6EAF00943570 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					9527F9FC277C347300C38960 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1349,6 +1398,7 @@
 				959815AE282D412F00090EB4 /* mcluren sinx function */,
 				95F2C566283BE72800704D43 /* passing an array to a function */,
 				9506C044283C9959008B2455 /* passing 2d array to a function */,
+				951DEFDC283E6EAF00943570 /* 2d array exercise */,
 			);
 		};
 /* End PBXProject section */
@@ -1382,6 +1432,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				951ABC5C27A40FAD00143B23 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951DEFD9283E6EAF00943570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951DEFE0283E6EAF00943570 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1632,6 +1690,24 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		951DEFE2283E6EAF00943570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951DEFE3283E6EAF00943570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2176,6 +2252,15 @@
 			buildConfigurations = (
 				951ABC5D27A40FAD00143B23 /* Debug */,
 				951ABC5E27A40FAD00143B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951DEFE1283E6EAF00943570 /* Build configuration list for PBXNativeTarget "2d array exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951DEFE2283E6EAF00943570 /* Debug */,
+				951DEFE3283E6EAF00943570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,7 +7,6 @@ int main()
 {
 float x,Q,sum=0;
 int i,j,limit;
-
 printf("Enter the value of x of sinx in degrees in series: ");
 scanf("%f",&x);
 
@@ -26,7 +25,6 @@ sum=sum+pow(x,j)/fac(j);
 else
 sum=sum-pow(x,j)/fac(j);
 }
-
 printf("Sin(%0.1f): %f\n",Q,sum);
     return 0;
 }
